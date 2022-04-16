@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
 class Candi {
@@ -7,13 +5,10 @@ class Candi {
   String description;
   String imageUrl;
 
-
   Candi(
-      {
-      @required this.title,
+      {@required this.title,
       @required this.description,
-      @required this.imageUrl
-      });
+      @required this.imageUrl});
 }
 
 List<Candi> candiList = [
